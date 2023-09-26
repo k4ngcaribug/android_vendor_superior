@@ -44,7 +44,8 @@ SOONG_CONFIG_superiorGlobalVars += \
     target_uses_prebuilt_dynamic_partitions \
     uses_egl_display_array \
     uses_oplus_camera \
-    uses_nothing_camera
+    uses_nothing_camera \
+    uses_miui_camera
 
 SOONG_CONFIG_NAMESPACES += superiorNvidiaVars
 SOONG_CONFIG_superiorNvidiaVars += \
@@ -70,6 +71,7 @@ SOONG_CONFIG_superiorGlobalVars_target_uses_prebuilt_dynamic_partitions := $(TAR
 SOONG_CONFIG_superiorGlobalVars_camera_needs_client_info_lib := $(TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB)
 SOONG_CONFIG_superiorGlobalVars_uses_oplus_camera := $(TARGET_USES_OPLUS_CAMERA)
 SOONG_CONFIG_superiorGlobalVars_uses_nothing_camera := $(TARGET_USES_NOTHING_CAMERA)
+SOONG_CONFIG_superiorGlobalVars_uses_miui_camera := $(TARGET_USES_MIUI_CAMERA)
 SOONG_CONFIG_superiorGlobalVars_gralloc_handle_has_reserved_size := $(TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE)
 
 # Set default values
